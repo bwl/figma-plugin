@@ -1,0 +1,510 @@
+{
+  "foundation": {
+    "colors": {
+      "brand": {
+        "primary": {
+          "value": "#1a1a1a",
+          "type": "color",
+          "description": "Primary brand color - sophisticated black"
+        },
+        "secondary": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "description": "Secondary brand color - clean white"
+        },
+        "accent": {
+          "value": "#c9a96e",
+          "type": "color",
+          "description": "Luxury gold accent"
+        },
+        "accent-dark": {
+          "value": "#9d7e4d",
+          "type": "color",
+          "description": "Darker gold for hover states"
+        }
+      },
+      "neutral": {
+        "50": {
+          "value": "#fafafa",
+          "type": "color"
+        },
+        "100": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "200": {
+          "value": "#e5e5e5",
+          "type": "color"
+        },
+        "300": {
+          "value": "#d4d4d4",
+          "type": "color"
+        },
+        "400": {
+          "value": "#a3a3a3",
+          "type": "color"
+        },
+        "500": {
+          "value": "#737373",
+          "type": "color"
+        },
+        "600": {
+          "value": "#525252",
+          "type": "color"
+        },
+        "700": {
+          "value": "#404040",
+          "type": "color"
+        },
+        "800": {
+          "value": "#262626",
+          "type": "color"
+        },
+        "900": {
+          "value": "#171717",
+          "type": "color"
+        }
+      }
+    },
+    "typography": {
+      "font-families": {
+        "display": {
+          "value": "Playfair Display",
+          "type": "fontFamilies",
+          "description": "Serif display font for luxury headlines"
+        },
+        "sans": {
+          "value": "Montserrat",
+          "type": "fontFamilies",
+          "description": "Clean sans-serif for body text"
+        },
+        "mono": {
+          "value": "IBM Plex Mono",
+          "type": "fontFamilies",
+          "description": "Monospace for floor plan dimensions"
+        }
+      },
+      "font-sizes": {
+        "xs": {
+          "value": "12px",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "base": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "18px",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "32px",
+          "type": "fontSizes"
+        },
+        "3xl": {
+          "value": "48px",
+          "type": "fontSizes"
+        },
+        "4xl": {
+          "value": "64px",
+          "type": "fontSizes"
+        },
+        "5xl": {
+          "value": "72px",
+          "type": "fontSizes"
+        }
+      },
+      "line-heights": {
+        "tight": {
+          "value": "1.2",
+          "type": "lineHeights"
+        },
+        "normal": {
+          "value": "1.5",
+          "type": "lineHeights"
+        },
+        "relaxed": {
+          "value": "1.6",
+          "type": "lineHeights"
+        },
+        "loose": {
+          "value": "1.8",
+          "type": "lineHeights"
+        }
+      },
+      "letter-spacing": {
+        "tighter": {
+          "value": "-0.02em",
+          "type": "letterSpacing"
+        },
+        "tight": {
+          "value": "-0.01em",
+          "type": "letterSpacing"
+        },
+        "normal": {
+          "value": "0",
+          "type": "letterSpacing"
+        },
+        "wide": {
+          "value": "0.05em",
+          "type": "letterSpacing"
+        },
+        "wider": {
+          "value": "0.1em",
+          "type": "letterSpacing"
+        }
+      }
+    },
+    "spacing": {
+      "xs": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "48px",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "80px",
+        "type": "spacing"
+      },
+      "4xl": {
+        "value": "96px",
+        "type": "spacing"
+      },
+      "5xl": {
+        "value": "120px",
+        "type": "spacing"
+      }
+    },
+    "effects": {
+      "shadow-sm": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "#00000010",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "shadow-md": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "16",
+          "spread": "0",
+          "color": "#00000015",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "shadow-lg": {
+        "value": {
+          "x": "0",
+          "y": "8",
+          "blur": "32",
+          "spread": "0",
+          "color": "#00000020",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "overlay-dark": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#00000040",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      }
+    }
+  },
+  "semantic": {
+    "hero": {
+      "title": {
+        "value": {
+          "fontFamily": "{foundation.typography.font-families.display}",
+          "fontSize": "{foundation.typography.font-sizes.5xl}",
+          "fontWeight": "400",
+          "lineHeight": "{foundation.typography.line-heights.tight}",
+          "letterSpacing": "{foundation.typography.letter-spacing.tighter}"
+        },
+        "type": "typography",
+        "description": "Hero section main title"
+      },
+      "subtitle": {
+        "value": {
+          "fontFamily": "{foundation.typography.font-families.sans}",
+          "fontSize": "{foundation.typography.font-sizes.lg}",
+          "fontWeight": "300",
+          "lineHeight": "{foundation.typography.line-heights.relaxed}",
+          "letterSpacing": "{foundation.typography.letter-spacing.wide}"
+        },
+        "type": "typography",
+        "description": "Hero section subtitle"
+      },
+      "overlay": {
+        "value": "{foundation.effects.overlay-dark}",
+        "type": "boxShadow",
+        "description": "Overlay for hero images"
+      },
+      "padding-vertical": {
+        "value": "{foundation.spacing.5xl}",
+        "type": "spacing"
+      }
+    },
+    "gallery": {
+      "gap": {
+        "value": "{foundation.spacing.xs}",
+        "type": "spacing"
+      },
+      "caption": {
+        "value": {
+          "fontFamily": "{foundation.typography.font-families.sans}",
+          "fontSize": "{foundation.typography.font-sizes.sm}",
+          "fontWeight": "300",
+          "lineHeight": "{foundation.typography.line-heights.normal}",
+          "letterSpacing": "{foundation.typography.letter-spacing.normal}"
+        },
+        "type": "typography"
+      }
+    },
+    "amenity-card": {
+      "icon-size": {
+        "value": "48px",
+        "type": "sizing"
+      },
+      "padding": {
+        "value": "{foundation.spacing.lg}",
+        "type": "spacing"
+      },
+      "shadow": {
+        "value": "{foundation.effects.shadow-md}",
+        "type": "boxShadow"
+      },
+      "title": {
+        "value": {
+          "fontFamily": "{foundation.typography.font-families.sans}",
+          "fontSize": "{foundation.typography.font-sizes.xl}",
+          "fontWeight": "500",
+          "lineHeight": "{foundation.typography.line-heights.tight}",
+          "letterSpacing": "{foundation.typography.letter-spacing.normal}"
+        },
+        "type": "typography"
+      }
+    },
+    "floor-plan": {
+      "label": {
+        "value": {
+          "fontFamily": "{foundation.typography.font-families.mono}",
+          "fontSize": "{foundation.typography.font-sizes.xs}",
+          "fontWeight": "400",
+          "lineHeight": "{foundation.typography.line-heights.normal}",
+          "letterSpacing": "{foundation.typography.letter-spacing.normal}"
+        },
+        "type": "typography"
+      },
+      "dimension-color": {
+        "value": "{foundation.colors.neutral.600}",
+        "type": "color"
+      }
+    },
+    "contact-form": {
+      "input-padding": {
+        "value": "{foundation.spacing.md} {foundation.spacing.lg}",
+        "type": "spacing"
+      },
+      "label": {
+        "value": {
+          "fontFamily": "{foundation.typography.font-families.sans}",
+          "fontSize": "{foundation.typography.font-sizes.sm}",
+          "fontWeight": "500",
+          "lineHeight": "{foundation.typography.line-heights.normal}",
+          "letterSpacing": "{foundation.typography.letter-spacing.wider}",
+          "textCase": "uppercase"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "properties": {
+    "45parkplace": {
+      "hero-background": {
+        "value": "#2c3e50",
+        "type": "color",
+        "description": "45 Park Place hero section background"
+      },
+      "accent": {
+        "value": "#c9a96e",
+        "type": "color",
+        "description": "45 Park Place accent color"
+      },
+      "secondary-accent": {
+        "value": "#8b7355",
+        "type": "color"
+      }
+    },
+    "riverside-tower": {
+      "hero-background": {
+        "value": "#1e3a5f",
+        "type": "color",
+        "description": "Riverside Tower hero section background"
+      },
+      "accent": {
+        "value": "#4a90c8",
+        "type": "color",
+        "description": "Riverside Tower accent - water blue"
+      },
+      "secondary-accent": {
+        "value": "#2d5f8d",
+        "type": "color"
+      }
+    },
+    "tribeca-loft": {
+      "hero-background": {
+        "value": "#3d3d3d",
+        "type": "color",
+        "description": "Tribeca Loft hero section background"
+      },
+      "accent": {
+        "value": "#d4af37",
+        "type": "color",
+        "description": "Tribeca Loft accent - metallic gold"
+      },
+      "secondary-accent": {
+        "value": "#9a7b2f",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "group": "base",
+      "selectedTokenSets": {
+        "foundation.colors": "ENABLED",
+        "foundation.typography": "ENABLED",
+        "foundation.spacing": "ENABLED",
+        "foundation.effects": "ENABLED"
+      }
+    },
+    {
+      "id": "semantic",
+      "name": "Semantic Tokens",
+      "group": "base",
+      "selectedTokenSets": {
+        "semantic.hero": "ENABLED",
+        "semantic.gallery": "ENABLED",
+        "semantic.amenity-card": "ENABLED",
+        "semantic.floor-plan": "ENABLED",
+        "semantic.contact-form": "ENABLED"
+      }
+    },
+    {
+      "id": "45parkplace",
+      "name": "45 Park Place",
+      "group": "property",
+      "selectedTokenSets": {
+        "foundation.colors": "ENABLED",
+        "foundation.typography": "ENABLED",
+        "foundation.spacing": "ENABLED",
+        "foundation.effects": "ENABLED",
+        "semantic.hero": "ENABLED",
+        "semantic.gallery": "ENABLED",
+        "semantic.amenity-card": "ENABLED",
+        "properties.45parkplace": "ENABLED"
+      },
+      "$metadata": {
+        "previewColor": "#c9a96e",
+        "description": "Luxury residential tower in lower Manhattan",
+        "tags": ["residential", "luxury", "manhattan", "downtown"]
+      }
+    },
+    {
+      "id": "riverside-tower",
+      "name": "Riverside Tower",
+      "group": "property",
+      "selectedTokenSets": {
+        "foundation.colors": "ENABLED",
+        "foundation.typography": "ENABLED",
+        "foundation.spacing": "ENABLED",
+        "foundation.effects": "ENABLED",
+        "semantic.hero": "ENABLED",
+        "semantic.gallery": "ENABLED",
+        "semantic.amenity-card": "ENABLED",
+        "properties.riverside-tower": "ENABLED"
+      },
+      "$metadata": {
+        "previewColor": "#4a90c8",
+        "description": "Waterfront luxury condominiums",
+        "tags": ["residential", "luxury", "waterfront", "modern"]
+      }
+    },
+    {
+      "id": "tribeca-loft",
+      "name": "Tribeca Loft",
+      "group": "property",
+      "selectedTokenSets": {
+        "foundation.colors": "ENABLED",
+        "foundation.typography": "ENABLED",
+        "foundation.spacing": "ENABLED",
+        "foundation.effects": "ENABLED",
+        "semantic.hero": "ENABLED",
+        "semantic.gallery": "ENABLED",
+        "semantic.amenity-card": "ENABLED",
+        "properties.tribeca-loft": "ENABLED"
+      },
+      "$metadata": {
+        "previewColor": "#d4af37",
+        "description": "Industrial-chic loft conversions",
+        "tags": ["residential", "luxury", "loft", "tribeca", "industrial"]
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "foundation.colors",
+      "foundation.typography",
+      "foundation.spacing",
+      "foundation.effects",
+      "semantic.hero",
+      "semantic.gallery",
+      "semantic.amenity-card",
+      "semantic.floor-plan",
+      "semantic.contact-form",
+      "properties.45parkplace",
+      "properties.riverside-tower",
+      "properties.tribeca-loft"
+    ]
+  }
+}
